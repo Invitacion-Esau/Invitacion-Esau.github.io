@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación a la Fiesta</title>
+    <link rel="stylesheet" href="dis.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pepe">
+        <h1 >¡Mis 21!</h1>
+        <h2 >Esau Romero</h2>
+        </div>
+        
+        <div class="audio-container">
+            <h1>Mi canción</h1>
+            <audio controls>
+                <source src="fotosEsau/videoplayback.mp4" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="main-image">
+            <img src="fotosEsau/foto3.jpg" alt="Imagen principal">
+        </div>
+
+        <p>Sera una reunion simple en mi casa con comida y mas cosas.</p>
+        <section class="fechaa">
+        <h2>FECHA</h2>
+        <h3>01/02/25</h3>
+        <div class="countdown" id="countdown">Tiempo restante: 00:00:00</div>
+    </section >
+
+        <section id="galeria" class="splide">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide"><img src="fotosEsau/foto2.jpg" alt="Pastel 1"></li>
+                    <li class="splide__slide"><img src="fotosEsau/foto1.jpg" alt="Pastel 2"></li>
+                    <li class="splide__slide"><img src="fotosEsau/foto 4.jpg" alt="Pastel 3"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="mapa">
+            <h2>Ubicación</h2>
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d925.3236749973482!2d-102.27830103045149!3d21.923219342870606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429efca0a7345f9%3A0xc190802981487fcb!2sRosa%20Porcelina%20111%2C%20El%20Rosedal%2C%2020126%20Aguascalientes%2C%20Ags.!5e0!3m2!1ses-419!2smx!4v1736998292250!5m2!1ses-419!2smx"
+                width="100%" 
+                height="300" 
+                style="border:0; border-radius: 10px;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+          </section>
+        <footer>
+            <p>¡Nos vemos pronto! 🎉</p>
+            <button class="boton"><a href="https://wa.me/524495866092?text=¡Hola!%20Quiero%20confirmar%20la%20asistencia.">Confirmar asistencia</a></button>
+        </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+</body>
+</html>
